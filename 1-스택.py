@@ -1,8 +1,8 @@
 # https://www.acmicpc.net/problem/10828
 import sys
-cmd_cnt=int(sys.stdin.readline())
+cmd_cnt=int(input())
 stack=[]
-for i in range(cmd_cnt):
+for cnt in range(cmd_cnt):
   cmd=sys.stdin.readline().split()
   cmd_str=cmd[0]
   if cmd_str=='push':
@@ -23,4 +23,4 @@ for i in range(cmd_cnt):
     if not stack:
       print(-1)
     else:
-      print(stack[len(stack)-1])
+      print(stack[-1])
