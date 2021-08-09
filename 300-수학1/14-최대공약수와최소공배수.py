@@ -6,3 +6,7 @@ while b!=0:
   a,b=b,a
 print(a)
 print(A*B//a)
+# def gcd(a,b):
+# 	if b==0: return a
+# 	else: return gcd(b, a%b)
+# print(gcd(A,B))
